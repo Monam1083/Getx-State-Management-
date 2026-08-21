@@ -1,6 +1,6 @@
 # Flutter GetX Mastery 🚀
 
-A comprehensive practice repository dedicated to mastering **GetX** in Flutter. This project serves as a practical learning playground to explore GetX's core pillars: State Management, Route Management, and Dependency Injection
+A comprehensive practice repository dedicated to mastering **GetX** in Flutter. This project serves as a practical learning playground to explore GetX's core pillars: State Management  Route Management  and Dependency Injection
 
 ## 📖 Description
 
