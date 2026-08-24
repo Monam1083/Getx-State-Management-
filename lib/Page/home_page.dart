@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: [
               ElevatedButton(onPressed: () {
-                Get.snackbar(title, message)
+                Get.snackbar("downloading", "your song download")
               }, child: Text("Snack Bar")),
             ],
           ),
