@@ -23,7 +23,9 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Get.defaultDialog(
                     title: "Aleart",
-                    content: Column(children: []),
+                    content: Column(
+                      children: [Text("Do you want to delete it")],
+                    ),
                   );
                 },
                 child: Text("Dialog Box"),
