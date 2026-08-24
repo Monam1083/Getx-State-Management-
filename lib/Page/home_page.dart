@@ -19,12 +19,7 @@ class HomePage extends StatelessWidget {
                 },
                 child: Text("Snack Bar"),
               ),
-              ElevatedButton(
-                onPressed: () {
-                  Get.snackbar("downloading", "your song download");
-                },
-                child: Text("Dialog Box"),
-              ),
+              ElevatedButton(onPressed: () {}, child: Text("Dialog Box")),
             ],
           ),
         ),
