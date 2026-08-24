@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                 },
                 child: Text("Dialog Box"),
               ),
-              ElevatedButton(onPressed: () {}, child: Text("Page Route ")),
+              ElevatedButton(onPressed: () {}, child: Text("Go to New Page  ")),
             ],
           ),
         ),
