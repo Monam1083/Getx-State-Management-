@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Column(children: [Text("Home Page")]),
+        child: Column(children: []),
       ),
     );
   }
