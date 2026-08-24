@@ -13,11 +13,15 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              ElevatedButton(
-                onPressed: () {
-                  Get.snackbar("downloading", "your song download");
-                },
-                child: Text("Snack Bar"),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Get.snackbar("downloading", "your song download");
+                    },
+                    child: Text("Snack Bar"),
+                  ),
+                ],
               ),
               ElevatedButton(
                 onPressed: () {
