@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
                 onPressed: () {
                   Get.snackbar("downloading", "your song download");
                 },
-                child: Text("Snack Bar"),
+                child: Text("Dialog Box"),
               ),
             ],
           ),
