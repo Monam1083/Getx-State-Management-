@@ -6,7 +6,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [Center(child: Text("Home Page"))]),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(children: [Center(child: Text("Home Page"))]),
+      ),
     );
   }
 }
