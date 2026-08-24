@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/get_navigation.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -11,7 +13,9 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              ElevatedButton(onPressed: () {}, child: Text("Snack Bar")),
+              ElevatedButton(onPressed: () {
+                Get.snackbar(title, message)
+              }, child: Text("Snack Bar")),
             ],
           ),
         ),
