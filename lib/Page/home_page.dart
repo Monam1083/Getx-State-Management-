@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () {
-                  Get.defaultDialog();
+                  Get.defaultDialog(title: "Aleart");
                 },
                 child: Text("Dialog Box"),
               ),
