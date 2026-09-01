@@ -36,6 +36,17 @@ class HomePage extends StatelessWidget {
                 child: Text("Dialog Box"),
               ),
               ElevatedButton(onPressed: () {}, child: Text("Go to New Page  ")),
+              ElevatedButton(
+                onPressed: () {
+                  Get.defaultDialog(
+                    title: "Aleart",
+                    content: Column(
+                      children: [Text("Do you want to delete it")],
+                    ),
+                  );
+                },
+                child: Text("Dialog Box"),
+              ),
             ],
           ),
         ),
