@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   Get.defaultDialog(
-                    title: "Aleart",
+                    title: "Aleart ",
                     content: Column(
                       children: [Text("Do you want to delete it")],
                     ),
