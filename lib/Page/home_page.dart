@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                   Get.defaultDialog(
                     title: "Aleart ",
                     content: Column(
-                      children: [Text("Do you want to delete it")],
+                      children: [Text("Do you want to delete it ?")],
                     ),
                   );
                 },
