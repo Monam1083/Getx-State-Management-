@@ -9,7 +9,7 @@ As Flutter applications scale, efficient state management and clean architecture
 - **Reactive State Management:** Using `Obx` and `GetX` with `.obs` observables for reactive, stream-based UI updates
 - **Workers:** Leveraging `ever` `once` `debounce` and `interval` to listen to state changes
 ### 2 Route Management
-- Navigating between screens without `BuildContext` (`Get.to()`, `Get.off()`, `Get.offAll()`).
+- Navigating between screens without `BuildContext` (`Get.to()`,  `Get.off()`,  `Get.offAll()` ).
 - Passing arguments, parameters, and data between routes.
 - Configuring named routes and middleware.
 - Displaying Snackbars, Dialogs, and BottomSheets dynamically.
