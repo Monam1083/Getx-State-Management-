@@ -4,11 +4,11 @@ A comprehensive practice repository dedicated to mastering **GetX** in Flutter.T
 ## Description
 As Flutter applications scale, efficient state management and clean architecture become crucial. This repository is built to experiment with the GetX ecosystem, transitioning from basic reactive state updates to advanced dependency bindings and navigation.  It act as a personal reference guide and a hands -on  workspace for building high-performance, boilerplate free Flutter application
 ## Core Concepts Explored
-### 1. State Management (GetBuilder vs  GetX vs  Obx)
-- **Simple State Management:** Using `GetBuilder` for  low-memory, fast UI updates without streams
+### 1  State Management (GetBuilder vs  GetX vs  Obx)
+- **Simple State Management:** Using `GetBuilder` for  low-memory, fast UI updates without stream
 - **Reactive State Management:** Using `Obx` and `GetX` with `.obs` observables for reactive, stream-based UI updates
 - **Workers:** Leveraging `ever` `once` `debounce` and `interval` to listen to state changes
-### 2 Route Management
+### 2  Route  Management
 - Navigating between screens without `BuildContext` (`Get.to()`,  `Get.off()`,  `Get.offAll()` ).
 - Passing arguments, parameters, and data between routes.
 - Configuring named routes and middleware.
